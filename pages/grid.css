@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(148, 144, 144);
+    margin: 20px;
+    text-align: center;
+}
+p {
+    margin: 20px;
+}
+.contenedor {
+    display: grid;
+    gap: 20px;
+    grid-template-columns:  repeat(5, 1fr);
+    grid-auto-rows: auto;
+    
+    
+}
+.contenido {
+    background-color: #827397;
+    grid-column-start: 1 ;
+    grid-column-end: 5 ;
+    grid-row: 2/3;
+}
+.aside {
+    background-color:#4D4C7D ;
+    grid-column: 5/ 6;
+  grid-row: 2 /4;
+}
+.header {
+    background-color: #E9D5DA;
+    grid-column: 1 / 6;
+    height: 50px;
+ }
+.boton-grid{
+   
+/* edit */
+        width:98% ;
+        margin-right: 50px;
+        height: 80px;
+       display: flex;
+        justify-content: right ;
+        font-family: 'Noto Serif', serif;
+}
+
+ 
+.img1 {
+    grid-column: 1 /3;
+    grid-row: 3 /4;
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 28px 5px #000000; 
+    box-shadow: 0px 5px 28px 5px #000000;
+    position: relative;
+}
+.img2 {
+    grid-column:3 /5 ;
+    grid-row: 3 /4;
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 28px 5px #000000; 
+    box-shadow: 0px 5px 28px 5px #000000;
+    position: relative;
+}
+.img-title{
+    position: absolute;
+    bottom: 0;
+    background-color: #00000091;
+    color: white;
+    width: 100%;
+}
+.footer{
+    background-color:#363062 ;
+    width: 100%;
+    grid-column: 1 / 6;
+    height: 50px;
+}
+/* responsive */
+
+
+/* tablet */
+@media only screen and (max-width: 1334px){
+
+
+    .header{
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+    .contenido{
+        grid-column-start: 1;
+        grid-column-end:6 ;
+    }
+    .aside{
+        grid-column: 5/6;
+        grid-row:2/5 ;
+        display: none;
+    }
+    .img1{
+        grid-column:1 / 6 ;
+        grid-row: 3 /4;
+    }
+    .img2{
+        grid-column:1 / 6 ;
+        grid-row: 4 /5;
+    }
+    
+
+
+
+
+
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.contenido{
+    grid-column: 1 /6;
+}
+.aside{
+    display:none ;
+    grid-column: 1/6;
+    
+}
+.img1{
+    grid-column:1 / 6 ;
+    grid-row: 3 /4;
+}
+.img2{
+    grid-column:1 / 6 ;
+    grid-row: 4 /5;
+}
+
+}
+/* tablet */
