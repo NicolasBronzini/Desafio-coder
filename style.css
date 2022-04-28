@@ -237,6 +237,7 @@ font-size: 1.4rem;
             text-align: center;
             margin: 20px;
             margin-top: 50px;
+            font-size: 1.4rem;
         }
         .titulo-css{
             position: relative ;
@@ -360,9 +361,14 @@ font-size: 1.4rem;
             margin: 20px;
             padding: 20px 10px;
         }
+       
         .img-estructura{
             display: flex;
-            justify-content: center;
+            align-items: center;
+           margin: 0 auto;
+           
+           flex-direction: column;
+           width: 500px;
         }
         
 
@@ -375,15 +381,17 @@ font-size: 1.4rem;
             .codigo-html{
                 text-align: start;
                 margin: 20px;
+                font-size: 1.4rem;
             }
             #img-code{
-                width: 800px;       
+                width: 800px;  
+                text-align: start;     
             }
            
  /* videos html */
              .cajaVideos1-html {
               padding: 20PX;
-        
+               
              }
             
             #creditos-html {
@@ -395,8 +403,12 @@ font-size: 1.4rem;
 .parrafodatos{
     margin: 20px;
     list-style: none;
+    font-size: 1.4rem;
 }
-
+.img-code{
+    text-align: start;
+    width: 600px;
+}
 
 
         /* pie de pagina html */
@@ -424,6 +436,17 @@ font-size: 1.4rem;
     
       grid-column: 2/3;
       
+    }
+    .img-code{
+        width: 500px;
+    }
+    .img-estructura{
+        display: flex;
+        align-items: center;
+       margin: 0 auto;
+       
+       flex-direction: column;
+       width: 400px;
     }
     .dalto{
         width: 75px;
@@ -472,7 +495,7 @@ font-size: 1.4rem;
         min-width: 110px;
     }
     #img-code{
-        width: 500px;       
+        width: 400px;       
     }
 
 .imgestructura-css {
@@ -480,11 +503,14 @@ font-size: 1.4rem;
 }
 
 .img-estructura{
-    width: 400px;
-    display: flex;
-    justify-content: left;
-    padding: 10px;
+   width: 400px;
 }
 
+.navegacion-html{
+    max-width: 750px;
+}
+.img-code{
+    width: 400px;
+}
 
 }
