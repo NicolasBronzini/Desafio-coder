@@ -34,6 +34,7 @@ p {
     background-color: #E9D5DA;
     grid-column: 1 / 6;
     height: 50px;
+    
  }
 .boton-grid{
    
@@ -63,6 +64,24 @@ p {
     box-shadow: 0px 5px 28px 5px #000000;
     position: relative;
 }
+.img-1{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #2980B9;
+  }
+  .img-1:hover{
+    -webkit-transform: translate(10%);
+    transform: translate(10%);
+  }
+  .img-2{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #2C3E50;
+  }
+  .img-2:hover{
+    -webkit-transform: perspective(150px) rotateX(45deg);
+    transform: perspective(150px) rotateX(45deg);
+  }
 .img-title{
     position: absolute;
     bottom: 0;
@@ -76,6 +95,11 @@ p {
     grid-column: 1 / 6;
     height: 50px;
 }
+
+/* animaciones */
+
+
+
 /* responsive */
 
 
