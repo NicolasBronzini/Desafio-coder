@@ -148,7 +148,7 @@ font-size: 1.4rem;
     width: 100px;
     position: relative;
     left: -80px;
-    bottom: 70px;
+    bottom: 80px;
     }
 .holamundo{ 
     width: 100px;
@@ -161,7 +161,7 @@ font-size: 1.4rem;
     width: 100px;
     position: relative;
     left: 180px;
-    bottom: 690px;
+    bottom: 680px;
 }
 
 
@@ -180,18 +180,11 @@ font-size: 1.4rem;
 
 
   .header-css {
-    background-color: #395B64 ;
+    background-color: #395B64  !important;
     height: 100px;
     color: black;
     }
     /* navabar */
-    .css-botones li {
-        color: white;
-        display: inline-flex;
-        justify-content: left;
-        padding: 50px  10px;
-        font-size: 20px;
-    }
     
     
     
@@ -293,7 +286,7 @@ font-size: 1.4rem;
 /* botones de html */
     
 .navegacion-html{
-    background-color:#F0A500 ;
+    background-color:#F0A500 !important ;
     height: 100px;
     color: #ffffff;
 }
@@ -459,7 +452,7 @@ font-size: 1.4rem;
     .nate{
         width: 75px;
         left: 100px;
-        top: -640px;
+        top: -630px;
     }
     #header{
        position: flex;

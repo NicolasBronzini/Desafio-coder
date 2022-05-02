@@ -27,9 +27,18 @@ p {
 }
 .aside {
     background-color:#4D4C7D ;
-    grid-column: 5/ 6;
+    grid-column: 5/ 6 ;
   grid-row: 2 /4;
+  
+
 }
+.card1{
+    background-color:#424177 ;
+    margin: 50px 20px;
+    border:  #29292980 double;
+    
+}
+
 .header {
     background-color: #E9D5DA;
     grid-column: 1 / 6;
@@ -64,24 +73,7 @@ p {
     box-shadow: 0px 5px 28px 5px #000000;
     position: relative;
 }
-.img-1{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
-    background-color: #2980B9;
-  }
-  .img-1:hover{
-    -webkit-transform: translate(10%);
-    transform: translate(10%);
-  }
-  .img-2{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
-    background-color: #2C3E50;
-  }
-  .img-2:hover{
-    -webkit-transform: perspective(150px) rotateX(45deg);
-    transform: perspective(150px) rotateX(45deg);
-  }
+
 .img-title{
     position: absolute;
     bottom: 0;
@@ -89,6 +81,7 @@ p {
     color: white;
     width: 100%;
 }
+
 .footer{
     background-color:#363062 ;
     width: 100%;
@@ -116,21 +109,21 @@ p {
         grid-column-end:6 ;
     }
     .aside{
-        grid-column: 5/6;
+        grid-column: 5/6 ;
         grid-row:2/5 ;
         display: none;
+        
     }
     .img1{
-        grid-column:1 / 6 ;
+        grid-column:1/ 4 ;
         grid-row: 3 /4;
     }
-    .img2{
-        grid-column:1 / 6 ;
-        grid-row: 4 /5;
+   
+
+    .img2 {
+        grid-column:4 /6 ;
+        grid-row: 3 /4;
     }
-    
-
-
 
 
 
