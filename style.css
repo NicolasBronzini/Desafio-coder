@@ -181,7 +181,7 @@ font-size: 1.4rem;
 
   .header-css {
     background-color: #395B64  !important;
-    height: 100px;
+    height: 100%;
     color: black;
     }
     /* navabar */
@@ -287,7 +287,7 @@ font-size: 1.4rem;
     
 .navegacion-html{
     background-color:#F0A500 !important ;
-    height: 100px;
+    height: 100%;
     color: #ffffff;
 }
 
